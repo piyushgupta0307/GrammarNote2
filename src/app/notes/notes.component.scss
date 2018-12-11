@@ -1,0 +1,148 @@
+
+
+.border
+{
+    border:1px solid red !important;
+}
+
+
+#container
+{
+    border:1px solid #000;
+    @extend %extra-container;
+    font-family:"Century Gothic";
+  
+
+
+.modal-dialog{
+    max-width: 750px;
+    .modal-content
+    {
+        background-color:transparent;
+        border:0;
+    }
+
+}
+#videoWrapper
+{
+    width:350px;
+}
+
+#header
+{
+    background: url("/assets/images/header.png") no-repeat;
+    padding: 5px 10px;
+    color:#fff;
+
+    #header-text1
+    {
+        font-size: 26px;
+         font-weight:bold;
+
+    }
+    
+}
+.col1
+{
+    float:left;
+    padding: 1rem;
+
+    width:150px;
+    height: 120px; 
+
+    .imageTitle
+    {
+        padding: 5px;
+        font-size: 9px;
+
+
+    }
+}
+
+
+a
+{
+text-decoration: none;
+  &.collaseHeading{
+
+    color:#000;
+    font-weight: bold;
+  }
+
+    
+   
+
+}
+iframe{
+    position: relative;
+}
+
+    
+}
+// extra
+
+%extra-container
+{
+    width: 1014px !important;
+    height: 668px;
+    margin-left:10px;
+    margin-top:10px;
+    padding-left:15px;
+    padding-right:15px;
+
+}
+
+#thumbnailContainer
+{
+    height: 540px !important;
+    border:1px solid #000;
+    background-color:#F0F0F0;
+    
+
+}
+
+
+#notice
+{
+    font-size:11px;
+    font-weight:bold;
+
+}
+.card-header
+{
+    padding: 0.25rem;
+}
+.collaspeIcon
+{
+    padding:1px 5px;
+    border-radius:50%;
+    background-color:#ddd;
+    border:2px solid grey;
+    margin-right:1rem;
+}
+.card-body
+{
+padding: 1.25rem 0.7rem;
+font-size:12px;
+}
+.hideMyWrapper
+{
+    display: none;
+}
+.showMyWrapper
+{
+    position:absolute;
+    z-index: 1001;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(0,0,0,0.6);
+}
+
+#showFrame
+{
+    width:740px;
+    margin:auto;
+    margin-top:20px;
+}

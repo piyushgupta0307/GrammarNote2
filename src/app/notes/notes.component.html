@@ -1,0 +1,145 @@
+<div id="container">
+  <div class="row">
+    <div class="col">
+      <div id="header">
+        <div id="header-text1">GrammerNotes</div>
+        <div id="header-text2">Level Two</div>
+      </div>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col mt-2" style="position: relative;">
+
+      <div class="row">
+        <div class="col-md-7">
+          <div class="row">
+            <div class="col">
+              <div id="thumbnailContainer">
+                <ng-container *ngFor="let d of data | paginate: {id: 'paginate', itemsPerPage:20,
+              currentPage: p}  ;let i= index">
+                  <div class="col1" (click)="changeFrame(i)">
+                    <img [src]="assetsPath+d.Path" [alt]="d.Path" />
+                    <p [innerText]="d.title" class="imageTitle"></p>
+                  </div>
+                </ng-container>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col clearfix">
+              <div class="float-right">
+                <pagination-controls maxSize="2" directionLinks="true" id="paginate" (pageChange)="p=$event"></pagination-controls>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 ">
+          <div class="row">
+            <div class="col">
+              <div id="videoWrapper" #videoWrapper style="position:relative">
+
+                <iframe scrolling="no" seamless="seamless" id="iframe" width="350" height="215" controls="controls"
+                  [src]="framePath"></iframe>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div id="notice"><span><img src="./assets/images/left-caret.png" alt="left arrow" /></span>
+                <span>Please select the presentation from the gallery on the left</span></div>
+              <div class="card mb-2">
+                <div class="card-header">
+                  <a class="collaseHeading" href="#downloadPresenation" (click)="closePreTab=!closePreTab" data-toggle="collapse">
+                    <span class="collaspeIcon" [innerText]="(closePreTab)?'&#43;':'&#8722;'">
+                    </span><span>Download this presentation</span>
+                  </a>
+                </div>
+                <div id="downloadPresenation" class="collapse">
+                  <div class="card-body">
+                    <form (ngSubmit)="downloadPresentaion()" #presentaionFrom="ngForm">
+                      <div class="form-check">
+
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" ngModel value="presentations_for_windows" name="downloadPresenation">Powerpoint(Windows)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" ngModel value="presentations_for_mac" name="downloadPresenation">Powerpoint
+                          (Mac)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" ngModel value="keynotes" class="form-check-input" name="downloadPresenation">Keynote
+                        </label>
+                      </div>
+
+                      <div class="float-right mb-2">
+                        <button type="submit" [disabled]="presentaionFrom.invalid">Download</button>
+
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collaseHeading" href="#handouts" (click)="closeHangoutsTab=!closeHangoutsTab" data-toggle="collapse">
+                    <span class="collaspeIcon" [innerText]="(closeHangoutsTab)?'&#43;':'&#8722;'">
+                    </span><span>Handouts</span>
+                  </a>
+                </div>
+                <div id="handouts" class="collapse">
+                  <div class="card-body">
+                    <form (ngSubmit)="downloadHandouts()" #handoutsFrom="ngForm">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" ngModel value="_oyo" name="handouts">On your own
+                          activities
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" ngModel value="_prac" name="handouts">Practics
+                          activities
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" ngModel value="_rev" name="handouts">Reviews
+                        </label>
+                      </div>
+
+                      <div class="float-right mb-2">
+                        <button type="submit" [disabled]="handoutsFrom.invalid">Download</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div id="frameWrapper" [ngClass]="{showMyWrapper:showWrapper,hideMyWrapper:!showWrapper}" (click)="showWrapper=false">
+        <div id="showFrame">
+          <iframe scrolling="no" seamless="seamless" id="iframe" width="720" height="540" controls="controls" [src]="framePath"></iframe>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+  </div>
+</div>

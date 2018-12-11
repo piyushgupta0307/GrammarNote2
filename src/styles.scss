@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+#resizer
+{
+    position: absolute;
+    z-index: 1001;
+    top:0px;
+    right:0;
+    width: 21px;
+    height: 15px;
+    background: #000 url("./assets/images/image313.png") no-repeat;
+
+}
+
+.ngx-pagination
+{
+    font-size: 12px !important;
+    margin-top: 6px !important;
+    li
+    {
+        font-weight:bold
+        &.disabled
+        {
+            color:#B5B5B5;
+            padding:0;
+           
+        }
+        &.current
+        {
+            color:#000;
+        
+            background-color:transparent;
+        }
+
+    }
+}
