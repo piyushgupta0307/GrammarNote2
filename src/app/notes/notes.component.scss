@@ -37,7 +37,7 @@
     #header-text1
     {
         font-size: 26px;
-         font-weight:bold;
+        font-weight:bold;
 
     }
     
@@ -47,13 +47,13 @@
     float:left;
     padding: 1rem;
 
-    width:150px;
-    height: 120px; 
+    width:140px;
+    height: 100px; 
 
     .imageTitle
     {
         padding: 5px;
-        font-size: 9px;
+        font-size: 8px;
 
 
     }
@@ -94,9 +94,10 @@ iframe{
 
 #thumbnailContainer
 {
-    height: 540px !important;
-    border:1px solid #000;
-    background-color:#F0F0F0;
+    height: 110% !important;
+    border: 1px solid #000;
+    background-color: #F0F0F0;
+    width: 102%;
     
 
 }
