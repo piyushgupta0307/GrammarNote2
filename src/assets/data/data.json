@@ -3,7 +3,7 @@
       "title":"Lesson 1: Correcting Sentence Fragments",
       "Path":"images/lesson1.png",
       "ToolTip":"Correcting Sentence Fragments",
-      "video":"video/level2_lesson01_v2/index.html",
+      "video":"video/level2_lesson01_v2/story.html",
       "handouts":"level2_lesson01",
       "ppt":"level2_lesson01_v2.ppt",
       "keynotes":"level2_lesson01_v2.key"
@@ -12,7 +12,7 @@
       "title":"Lesson 2: Correcting Run-On Sentences",
       "Path":"images/lesson2.png",
       "ToolTip":"Correcting Run-On Sentences",
-      "video":"video/level2_lesson02_v2/index.html",
+      "video":"video/level2_lesson02_v2/story.html",
       "handouts":"level2_lesson02",
       "ppt":"level2_lesson02_v2.ppt",
       "keynotes":"level2_lesson02_v2.key"
@@ -23,333 +23,325 @@
       "title":"Lesson 3: Combining Sentences",
       "Path":"images/lesson3.png",
       "ToolTip":"Combining Sentences",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson03
+      "video":"video/level2_lesson03_v2/story.html",
+      "handouts":"level2_lesson03",
       "ppt":"level2_lesson03_v2.ppt",
-      "knmac":"level2_lesson03_v2.key.zip"
+      "keynotes":"level2_lesson03_v2.key"
    },
    {  
       "title":"Lesson 4: Using Subject-Verb Agreement",
       "Path":"images/lesson4.png",
       "ToolTip":"Using Subject-Verb Agreement",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson04
+      "video":"video/level2_lesson04_v2/story.html",
+      "handouts":"level2_lesson04",
       "ppt":"level2_lesson04_v2.ppt",
-      "knmac":"level2_lesson04_v2.key.zip"
+      "keynotes":"level2_lesson04_v2.key"
    },
    {  
       "title":"Lesson 5: Using Pronoun-Antecedent Agreement",
       "Path":"images/lesson5.png",
       "ToolTip":"Using Pronoun-Antecedent Agreement",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson05
+      "video":"video/level2_lesson05_v2/story.html",
+      "handouts":"level2_lesson05",
       "ppt":"level2_lesson05_v2.ppt",
-      "knmac":"level2_lesson05_v2.key.zip"
+      "keynotes":"level2_lesson05_v2.key"
    },
    {  
       "title":"Lesson 6: Understanding Verb Forms",
       "Path":"images/lesson6.png",
       "ToolTip":"Understanding Verb Forms",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson06
+      "video":"video/level2_lesson06_v2/story.html",
+      "handouts":"level2_lesson06",
       "ppt":"level2_lesson06_v2.ppt",
-      "knmac":"level2_lesson06_v2.key.zip"
+      "keynotes":"level2_lesson06_v2.key"
    },
    {  
       "title":"Lesson 7: Mastering Six Troublesome Verbs",
       "Path":"images/lesson7.png",
       "ToolTip":"Mastering Six Troublesome Verbs",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson07
+      "video":"video/level2_lesson07_v2/story.html",
+      "handouts":"level2_lesson07",
       "ppt":"level2_lesson07_v2.ppt",
-      "knmac":"level2_lesson07_v2.key.zip"
+      "keynotes":"level2_lesson07_v2.key"
    },
    {  
       "title":"Lesson 8: Understanding Verb Tense",
       "Path":"images/lesson8.png",
       "ToolTip":"Understanding Verb Tense",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson08
+      "video":"video/level2_lesson08_v2/story.html",
+      "handouts":"level2_lesson08",
       "ppt":"level2_lesson08_v2.ppt",
-      "knmac":"level2_lesson08_v2.key.zip"
+      "keynotes":"level2_lesson08_v2.key"
    },
    {  
       "title":"Lesson 9: Using Active and Passive Voice",
       "Path":"images/lesson9.png",
       "ToolTip":"Using Active and Passive Voice",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson09
+      "video":"video/level2_lesson09_v2/story.html",
+      "handouts":"level2_lesson09",
       "ppt":"level2_lesson09_v2.ppt",
-      "knmac":"level2_lesson09_v2.key.zip"
+      "keynotes":"level2_lesson09_v2.key"
    },
    {  
       "title":"Lesson 10: Using Pronouns Correctly",
       "Path":"images/lesson10.png",
       "ToolTip":"Using Pronouns Correctly",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson10
+      "video":"video/level2_lesson10_v2/story.html",
+      "handouts":"level2_lesson10",
       "ppt":"level2_lesson10_v2.ppt",
-      "knmac":"level2_lesson10_v2.key.zip"
+      "keynotes":"level2_lesson10_v2.key"
    },
    {  
       "title":"Lesson 11: Using Clear Pronoun Reference",
       "Path":"images/lesson11.png",
       "ToolTip":"Using Clear Pronoun Reference",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson11
+      "video":"video/level2_lesson11_v2/story.html",
+      "handouts":"level2_lesson11",
       "ppt":"level2_lesson11_v2.ppt",
-      "knmac":"level2_lesson11_v2.key.zip"
+      "keynotes":"level2_lesson11_v2.key"
    },
    {  
       "title":"Lesson 12: Understanding Modifiers",
       "Path":"images/lesson12.png",
       "ToolTip":"Understanding Modifiers",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson12
+      "video":"video/level2_lesson12_v2/story.html",
+      "handouts":"level2_lesson12",
       "ppt":"level2_lesson12_v2.ppt",
-      "knmac":"level2_lesson12_v2.key.zip"
+      "keynotes":"level2_lesson12_v2.key"
    },
    {  
       "title":"Lesson 13: Understanding Comparison of Modifiers",
       "Path":"images/lesson13.png",
       "ToolTip":"Understanding Comparison of Modifiers",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson13
+      "video":"video/level2_lesson13_v2/story.html",
+      "handouts":"level2_lesson13",
       "ppt":"level2_lesson13_v2.ppt",
-      "knmac":"level2_lesson13_v2.key.zip"
+      "keynotes":"level2_lesson13_v2.key"
    },
    {  
       "title":"Lesson 14: Correcting Dangling Modifiers",
       "Path":"images/lesson14.png",
       "ToolTip":"Correcting Dangling Modifiers",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson14
+      "video":"video/level2_lesson14_v2/story.html",
+      "handouts":"level2_lesson14",
       "ppt":"level2_lesson14_v2.ppt",
-      "knmac":"level2_lesson14_v2.key.zip"
+      "keynotes":"level2_lesson14_v2.key"
    },
    {  
       "title":"Lesson 15: Correcting Misplaced Modifiers",
       "Path":"images/lesson15.png",
       "ToolTip":"Correcting Misplaced Modifiers",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson15
+      "video":"video/level2_lesson15_v2/story.html",
+      "handouts":"level2_lesson15",
       "ppt":"level2_lesson15_v2.ppt",
-      "knmac":"level2_lesson15_v2.key.zip"
+      "keynotes":"level2_lesson15_v2.key"
    },
    {  
       "title":"Lesson 16: Understanding Usage",
       "Path":"images/lesson16.png",
       "ToolTip":"Understanding Usage",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson16
+      "video":"video/level2_lesson16_v2/story.html",
+      "handouts":"level2_lesson16",
       "ppt":"level2_lesson16_v2.ppt",
-      "knmac":"level2_lesson16_v2.key.zip"
+      "keynotes":"level2_lesson16_v2.key"
    },
    {  
       "title":"Lesson 17: Using Capital Letters",
       "Path":"images/lesson17.png",
       "ToolTip":"Using Capital Letters",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson17
+      "video":"video/level2_lesson17_v2/story.html",
+      "handouts":"level2_lesson17",
       "ppt":"level2_lesson17_v2.ppt",
-      "knmac":"level2_lesson17_v2.key.zip"
+      "keynotes":"level2_lesson17_v2.key"
    },
    {  
       "title":"Lesson 18: Using End Marks",
       "Path":"images/lesson18.png",
       "ToolTip":"Using End Marks",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson18
+      "video":"video/level2_lesson18_v2/story.html",
+      "handouts":"level2_lesson18",
       "ppt":"level2_lesson18_v2.ppt",
-      "knmac":"level2_lesson18_v2.key.zip"
+      "keynotes":"level2_lesson18_v2.key"
    },
    {  
       "title":"Lesson 19: Using Commas",
       "Path":"images/lesson19.png",
       "ToolTip":"Using Commas",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson19
+      "video":"video/level2_lesson19_v2/story.html",
+      "handouts":"level2_lesson19",
       "ppt":"level2_lesson19_v2.ppt",
-      "knmac":"level2_lesson19_v2.key.zip"
+      "keynotes":"level2_lesson19_v2.key"
    },
    {  
       "title":"Lesson 20: Using Semicolons",
       "Path":"images/lesson20.png",
       "ToolTip":"Using Semicolons",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson20
+      "video":"video/level2_lesson20_v2/story.html",
+      "handouts":"level2_lesson20",
       "ppt":"level2_lesson20_v2.ppt",
-      "knmac":"level2_lesson20_v2.key.zip"
+      "keynotes":"level2_lesson20_v2.key"
    },
    {  
       "title":"Lesson 21: Using Colons",
       "Path":"images/lesson21.png",
       "ToolTip":"Using Colons",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson21
+      "video":"video/level2_lesson21_v2/story.html",
+      "handouts":"level2_lesson21",
       "ppt":"level2_lesson21_v2.ppt",
-      "knmac":"level2_lesson21_v2.key.zip"
+      "keynotes":"level2_lesson21_v2.key"
    },
    {  
       "title":"Lesson 22: Using Quotation Marks",
       "Path":"images/lesson22.png",
       "ToolTip":"Using Quotation Marks",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson22
+      "video":"video/level2_lesson22_v2/story.html",
+      "handouts":"level2_lesson22",
       "ppt":"level2_lesson22_v2.ppt",
-      "knmac":"level2_lesson22_v2.key.zip"
+      "keynotes":"level2_lesson22_v2.key"
    },
    {  
       "title":"Lesson 23: Using Apostrophes",
       "Path":"images/lesson23.png",
       "ToolTip":"Using Apostrophes",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson23
+      "video":"video/level2_lesson23_v2/story.html",
+      "handouts":"level2_lesson23",
       "ppt":"level2_lesson23_v2.ppt",
-      "knmac":"level2_lesson23_v2.key.zip"
+      "keynotes":"level2_lesson23_v2.key"
    },
    {  
       "title":"Lesson 24: Improving Your Spelling",
       "Path":"images/lesson24.png",
       "ToolTip":"Improving Your Spelling",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson24
+      "video":"video/level2_lesson24_v2/story.html",
+      "handouts":"level2_lesson24",
       "ppt":"level2_lesson24_v2.ppt",
-      "knmac":"level2_lesson24_v2.key.zip"
+      "keynotes":"level2_lesson24_v2.key"
    },
    {  
       "title":"Lesson 25: Writing with Detail: Prepositional Phra...",
       "Path":"images/lesson25.png",
       "ToolTip":"Writing with Detail: Prepositional Phrases",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson25
+      "video":"video/level2_lesson25_v2/story.html",
+      "handouts":"level2_lesson25",
       "ppt":"level2_lesson25_v2.ppt",
-      "knmac":"level2_lesson25_v2.key.zip"
+      "keynotes":"level2_lesson25_v2.key"
    },
    {  
       "title":"Lesson 26: Writing with Detail: Adverbials and...",
       "Path":"images/lesson26.png",
       "ToolTip":"Writing with Detail: Adverbials and...",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson26
+      "video":"video/level2_lesson26_v2/story.html",
+      "handouts":"level2_lesson26",
       "ppt":"level2_lesson26_v2.ppt",
-      "knmac":"level2_lesson26_v2.key.zip"
+      "keynotes":"level2_lesson26_v2.key"
    },
    {  
-      "title":"Lesson 27: Writing with Concord: Parallel Structur...",
+      "title":"Lesson 27: Writing with Concord: Parallel Structure...",
       "Path":"images/lesson27.png",
       "ToolTip":"Writing with Concord: Parallel Structure",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson27
+      "video":"video/level2_lesson27_v2/story.html",
+      "handouts":"level2_lesson27",
       "ppt":"level2_lesson27_v2.ppt",
-      "knmac":"level2_lesson27_v2.key.zip"
+      "keynotes":"level2_lesson27_v2.key"
    },
    {  
-      "title":"Lesson 28: Controlling Pace and Creating Drama wit...",
+      "title":"Lesson 28: Controlling Pace and Creating Drama with...",
       "Path":"images/lesson28.png",
       "ToolTip":"Controlling Pace and Creating Drama with...",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson28
+      "video":"video/level2_lesson28_v2/story.html",
+      "handouts":"level2_lesson28",
       "ppt":"level2_lesson28_v2.ppt",
-      "knmac":"level2_lesson28_v2.key.zip"
+      "keynotes":"level2_lesson28_v2.key"
    },
    {  
       "title":"Lesson 29: Writing with Special Focus: Postponing....",
       "Path":"images/lesson29.png",
       "ToolTip":"Writing with Special Focus: Postponing...",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson29
+      "video":"video/level2_lesson29_v2/story.html",
+      "handouts":"level2_lesson29",
       "ppt":"level2_lesson29_v2.ppt",
-      "knmac":"level2_lesson29_v2.key.zip"
+      "keynotes":"level2_lesson29_v2.key"
    },
    {  
       "title":"Lesson 30: Writing with Liveliness: Strong Action...",
       "Path":"images/lesson30.png",
       "ToolTip":"Writing with Liveliness: Strong Action ..",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson30
+      "video":"video/level2_lesson30_v2/story.html",
+      "handouts":"level2_lesson30",
       "ppt":"level2_lesson30_v2.ppt",
-      "knmac":"level2_lesson30_v2.key.zip"
+      "keynotes":"level2_lesson30_v2.key"
    },
    {  
       "title":"Lesson 31: Writing to Achieve Cohesion",
       "Path":"images/lesson31.png",
       "ToolTip":"Writing to Achieve Cohesion",
-      "video":"video/level2_lesson01_v2/index.html",
-      "handouts":"level2_lesson31
+      "video":"video/level2_lesson31_v2/story.html",
+      "handouts":"level2_lesson31",
       "ppt":"level2_lesson31_v2.ppt",
-      "knmac":"level2_lesson31_v2.key.zip"
+      "keynotes":"level2_lesson31_v2.key"
    },
    {  
       "title":"Grammar and Usage 1",
       "Path":"images/lesson32.png",
       "ToolTip":"Grammar and Usage 1",
-      "video":"video/level2_lesson01_v2/index.html",
+      "video":"video/l2_testprep_gu1_v2/story.html",
       "handouts":"level2_testprep_gu1",
       "ppt":"l2_testprep_gu1_v2.ppt",
-      "knmac":"testprep_gu1.key.zip"
+      "keynotes":"testprep_gu1.key"
    },
    {  
       "title":"Mechanics 1",
       "Path":"images/lesson33.png",
       "ToolTip":"Mechanics 1",
-      "video":"video/level2_lesson01_v2/index.html",
+      "video":"video/l2_testprep_mech1_v2/story.html",
       "handouts":"level2_testprep_mech1",
       "ppt":"l2_testprep_mech1_v2.ppt",
-      "knmac":"testprep_mech1.key.zip"
+      "keynotes":"testprep_mech1.key"
    },
    {  
       "title":"Grammar and Usage 2",
       "Path":"images/lesson34.png",
       "ToolTip":"Grammar and Usage 2",
-      "video":"video/level2_lesson01_v2/index.html",
+      "video":"video/l2_testprep_gu2_v2/story.html",
       "handouts":"level2_testprep_gu2",
       "ppt":"l2_testprep_gu2_v2.ppt",
-      "knmac":"testprep_gu2.key.zip"
+      "keynotes":"testprep_gu2.key"
    },
    {  
       "title":"Mechanics 2",
       "Path":"images/lesson35.png",
       "ToolTip":"Mechanics 2",
-      "video":"video/level2_lesson01_v2/index.html",
+      "video":"video/l2_testprep_mech2_v2/story.html",
       "handouts":"level2_testprep_mech2",
       "ppt":"l2_testprep_mech2_v2.ppt",
-      "knmac":"testprep_mech2.key.zip"
+      "keynotes":"testprep_mech2.key"
    },
    {  
       "title":"About GrammarNotes",
       "Path":"images/lesson36.png",
       "ToolTip":"About GrammarNotes",
-      "video":"video/level2_lesson01_v2/index.html",
+      "video":"video/about_gn_v2/story.html",
       "handouts":"",
       "ppt":"about_gn_v2.ppt",
-      "knmac":"about_gn_v2.key.zip"
+      "keynotes":"about_gn_v2.key"
    },
    {  
       "title":"Customizing GrammarNotes",
       "Path":"images/lesson37.png",
       "ToolTip":"Customizing GrammarNotes",
-      "video":"video/level2_lesson01_v2/index.html",
+      "video":"video/customize_gn_v2/story.html",
       "handouts":"",
       "ppt":"customize_gn_v2.ppt",
-      "knmac":"customizing_gn_v2.key.zip"
+      "keynotes":"customizing_gn_v2.key"
    },
    {  
       "title":"Grammar Glossary",
       "Path":"images/lesson38.png",
       "ToolTip":"Grammar Glossary",
-      "video":"video/level2_lesson01_v2/index.html",
+      "video":"video/grammar_glossary_v2/story.html",
       "handouts":"",
       "ppt":"grammar_glossary_v2.ppt",
-      "knmac":"grammar_glossary_v2.key.zip"
-   },
-   {  
-      "title":"",
-      "Path":""
-   },
-   {  
-      "title":"",
-      "Path":""
+      "keynotes":"grammar_glossary_v2.key"
    }
   
   

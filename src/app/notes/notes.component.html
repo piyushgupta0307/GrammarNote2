@@ -21,14 +21,17 @@
                   <div class="col1" (click)="changeFrame(i)">
                     <img [src]="assetsPath+d.Path" [alt]="d.Path" />
                     <p [innerText]="d.title" class="imageTitle"></p>
+					
                   </div>
                 </ng-container>
+				
               </div>
+			  
             </div>
           </div>
           <div class="row">
             <div class="col clearfix">
-              <div class="float-right">
+              <div class="float-right" #paginate>
                 <pagination-controls maxSize="2" directionLinks="true" id="paginate" (pageChange)="p=$event"></pagination-controls>
 
 

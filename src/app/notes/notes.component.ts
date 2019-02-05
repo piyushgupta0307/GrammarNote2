@@ -14,6 +14,7 @@ export class NotesComponent implements OnInit {
   @ViewChild("presentaionFrom") presentaionFrom: NgForm;
   @ViewChild("handoutsFrom") handoutsFrom: NgForm;
   @ViewChild("videoWrapper") videoWrapper: ElementRef;
+  @ViewChild("paginate") paginate: any;
 
   private data: any;
   private assetsPath: string = "../../assets/";
@@ -23,7 +24,7 @@ export class NotesComponent implements OnInit {
   closePreTab: boolean = true;
   closeHangoutsTab: boolean = true;
   showWrapper: boolean = false;
-
+  
   framePath: any = this.domSanitizer.bypassSecurityTrustResourceUrl("../../assets/images/image78.png");
   constructor(private http: HttpClient, private domSanitizer: DomSanitizer, private renderer: Renderer2) { }
 
@@ -38,6 +39,11 @@ export class NotesComponent implements OnInit {
   }
 
   changeFrame(index) {
+	  console.log(this.paginate);
+	  // var abc = this.paginate.nativeElement.childNodes[0].childNodes[0].childNodes[1].childNodes[4].childNodes[1].children[1].innerHTML;
+	  // if(index!=abc){
+		  // index = index + 20;
+	  // }
     var frame = this.data[index];
     var video = this.assetsPath + frame["video"];
     this.ppt = frame["ppt"];
