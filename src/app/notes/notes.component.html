@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col">
       <div id="header">
-        <div id="header-text1">GrammerNotes</div>
+        <div id="header-text1">GrammarNotes</div>
         <div id="header-text2">Level Two</div>
       </div>
 
@@ -18,8 +18,8 @@
               <div id="thumbnailContainer">
                 <ng-container *ngFor="let d of data | paginate: {id: 'paginate', itemsPerPage:20,
               currentPage: p}  ;let i= index">
-                  <div class="col1" (click)="changeFrame(i)">
-                    <img [src]="assetsPath+d.Path" [alt]="d.Path" />
+                  <div class="col1" (click)="changeFrame(i,p)">
+                    <img [src]="assetsPath+d.Path" [alt]="d.Path" title="{{d.ToolTip}}"/>
                     <p [innerText]="d.title" class="imageTitle"></p>
 					
                   </div>
@@ -30,14 +30,17 @@
             </div>
           </div>
           <div class="row">
+		  <div class="credit"><a href="/assets/credits/grammar_notes_credits.pdf" target="_blank">Credits</a>
+			</div>
             <div class="col clearfix">
+			
               <div class="float-right" #paginate>
                 <pagination-controls maxSize="2" directionLinks="true" id="paginate" (pageChange)="p=$event"></pagination-controls>
-
-
               </div>
-
+              
             </div>
+			
+			
           </div>
         </div>
         <div class="col-md-5 ">
@@ -45,7 +48,7 @@
             <div class="col">
               <div id="videoWrapper" #videoWrapper style="position:relative">
 
-                <iframe scrolling="no" seamless="seamless" id="iframe" width="350" height="215" controls="controls"
+                <iframe scrolling="no" seamless="seamless" id="iframe" width="100%" height="315" frameborder="0" controls="controls"
                   [src]="framePath"></iframe>
               </div>
 
@@ -92,8 +95,8 @@
                   </div>
                 </div>
               </div>
-              <div class="card">
-                <div class="card-header">
+              <div *ngIf="notHandouts != 'false'" class="card" >
+                <div  class="card-header">
                   <a class="collaseHeading" href="#handouts" (click)="closeHangoutsTab=!closeHangoutsTab" data-toggle="collapse">
                     <span class="collaspeIcon" [innerText]="(closeHangoutsTab)?'&#43;':'&#8722;'">
                     </span><span>Handouts</span>
@@ -102,25 +105,35 @@
                 <div id="handouts" class="collapse">
                   <div class="card-body">
                     <form (ngSubmit)="downloadHandouts()" #handoutsFrom="ngForm">
-                      <div class="form-check">
+                      <div *ngIf="!isHandouts" class="form-check">
                         <label class="form-check-label">
                           <input type="radio" class="form-check-input" ngModel value="_oyo" name="handouts">On your own
                           activities
                         </label>
                       </div>
-                      <div class="form-check">
+                      <div *ngIf="!isHandouts" class="form-check">
                         <label class="form-check-label">
-                          <input type="radio" class="form-check-input" ngModel value="_prac" name="handouts">Practics
+                          <input type="radio" class="form-check-input" ngModel value="_prac" name="handouts">Practice
                           activities
                         </label>
                       </div>
-                      <div class="form-check">
+					   
+					  <div *ngIf="isHandouts" class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" ngModel value="_prac" name="handouts">Practice
+                        </label>
+						
+                      </div>
+					  <div *ngIf="isHandouts" class="float-right mb-2">
+                        <button type="submit" [disabled]="handoutsFrom.invalid">Download</button>
+                      </div>
+                      <div *ngIf="!isHandouts" class="form-check">
                         <label class="form-check-label">
                           <input type="radio" class="form-check-input" ngModel value="_rev" name="handouts">Reviews
                         </label>
                       </div>
 
-                      <div class="float-right mb-2">
+                      <div *ngIf="!isHandouts" class="float-right mb-2">
                         <button type="submit" [disabled]="handoutsFrom.invalid">Download</button>
                       </div>
                     </form>
