@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html style=background-color:#c0c0c0;>
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/><meta name="format-detection" content="telephone=no"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="msapplication-tap-highlight" content="no"/><title>level2_lesson01_v2</title><link rel="apple-touch-icon-precomposed" href="data/apple-touch-icon.png"/><link rel="shortcut icon" type="image/ico" href="data/favicon.ico"/><style>body {background-color:#c0c0c0;}#spr0_a3388b4 {display:none;}</style>
@@ -22,7 +21,6 @@
 	<div id="preloader"></div>
 	<script src="/assets/video/common/js/player.js?50D57796"></script>
     <div id="content"></div>
-    <div id="spr0_a3388b4"></div>
     <script>
 		if (!ispring.compatibility.performRedirectIfNeeded("data/html5-unsupported.html"))
 		{
@@ -43,6 +41,12 @@
 					start();
 			})();
 		};
+		function exitClk() {
+		var ifr = window.parent.document.getElementById('iframe');
+		    ifr.src = '../../assets/images/image78.png';
+			document.exitFullscreen();
+
+		}
     </script>
 </body>
 </html>

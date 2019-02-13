@@ -76,6 +76,8 @@ a
 }
 iframe{
     position: relative;
+    // height: 222px;
+    top: 4px;
 }
 
     
@@ -106,13 +108,14 @@ iframe{
 
 #notice
 {
-    font-size:11px;
+    font-size:10px;
     font-weight:bold;
 
 }
 .card-header
 {
     padding: 0.25rem;
+    border: 1px solid #c0c0c0;
 }
 .collaspeIcon
 {
@@ -124,7 +127,7 @@ iframe{
 }
 .card-body
 {
-padding: 1.25rem 0.7rem;
+    padding: 10px 15px;
 font-size:12px;
 }
 .hideMyWrapper
@@ -173,7 +176,7 @@ font-size:12px;
 
 .credit{
     font-size: 10px;
-    margin: 22px 0px 14px 10px;
+    margin: 22px 0px 14px 17px;
     z-index: 1;
     text-decoration: underline;
     text-decoration-color: blue;
@@ -183,4 +186,7 @@ font-size:12px;
     text-decoration: underline;
     text-decoration-color: blue !important;
 }
-
+.card{
+    border:none !important;
+    word-wrap: none !important;
+}

@@ -43,6 +43,17 @@
 					start();
 			})();
 		};
+		function exitClk() {
+			if (window.parent.document.getElementsByTagName('iframe').length > 0) {
+				var ifr = window.parent.document.getElementById('iframe');
+				ifr.src = '../../assets/images/image78.png';
+			} else {
+				document.getElementById('coreSpr_3377285').getCore().processTriggerEffect(this);
+				document.getElementById('coreSpr_3377285').getCore().endSlideshow();
+				return false;
+			}
+
+		}
     </script>
 </body>
 </html>

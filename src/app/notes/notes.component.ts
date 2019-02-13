@@ -28,7 +28,7 @@ export class NotesComponent implements OnInit {
   showWrapper: boolean = false;
   private changeStatus:boolean = false;
   public p:any=null;
-  
+
   framePath: any = this.domSanitizer.bypassSecurityTrustResourceUrl("../../assets/images/image78.png");
   constructor(private http: HttpClient, private domSanitizer: DomSanitizer, private renderer: Renderer2) { }
 
@@ -112,7 +112,6 @@ this.closeHangoutsTab=true;
    
     if(type==="keynotes" && this.keynotes)
     {
-      //console.log(this.assetsPath + "keynotes/level_2/" + this.keynotes)
       location.href = (<string>this.assetsPath + "keynotes/level_2/" + this.keynotes+".zip");
 
     }
@@ -135,13 +134,6 @@ this.closeHangoutsTab=true;
       return false;
     }
   }
-  // private changeStatus(){
-	  // if(!this.changeStatus){
-		  // this.changeStatus = true;
-	  // }else{
-		  // this.changeStatus = false;
-	  // }
-  // }
 
 
 }
