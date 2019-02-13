@@ -19,7 +19,7 @@
                 <ng-container *ngFor="let d of data | paginate: {id: 'paginate', itemsPerPage:20,
               currentPage: p}  ;let i= index">
                   <div class="col1" (click)="changeFrame(i,p)">
-                    <img [src]="assetsPath+d.Path" [alt]="d.Path" title="{{d.ToolTip}}"/>
+                    <img [src]="assetsPath+d.Path" [alt]="d.Path" placement="top" ngbTooltip="Tooltip on top"/>
                     <p [innerText]="d.title" class="imageTitle"></p>
 					
                   </div>
