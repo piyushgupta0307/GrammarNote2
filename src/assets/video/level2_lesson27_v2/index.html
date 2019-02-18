@@ -20,7 +20,7 @@
 </head>
 <body>
 	<div id="preloader"></div>
-	<script src="/assets/video/common/js/player.js?92BB4886"></script>
+	<script src="../common/js/player.js?92BB4886"></script>
     <div id="content"></div>
     <div id="spr0_a751644"></div>
     <script>
@@ -45,9 +45,11 @@
 		};
 		function exitClk() {
 		    var ifr = window.parent.document.getElementById('iframe');
-		    ifr.src = '../../assets/images/image78.png';
-			document.exitFullscreen();
-
+		    ifr.src = './assets/images/image78.png';
+		  if(document.fullscreen){
+		            
+					document.exitFullscreen();
+				} 
 		}
     </script>
 </body>

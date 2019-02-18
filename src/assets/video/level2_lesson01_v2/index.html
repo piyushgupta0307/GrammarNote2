@@ -19,7 +19,7 @@
 </head>
 <body>
 	<div id="preloader"></div>
-	<script src="/assets/video/common/js/player.js?50D57796"></script>
+	<script src="../common/js/player.js?50D57796"></script>
     <div id="content"></div>
     <script>
 		if (!ispring.compatibility.performRedirectIfNeeded("data/html5-unsupported.html"))
@@ -43,10 +43,13 @@
 		};
 		function exitClk() {
 		var ifr = window.parent.document.getElementById('iframe');
-		    ifr.src = '../../assets/images/image78.png';
-			document.exitFullscreen();
+		ifr.src = './assets/images/image78.png';
+		  if(document.fullscreen){
+		            
+					document.exitFullscreen();
+				} 
+				}
 
-		}
     </script>
 </body>
 </html>
