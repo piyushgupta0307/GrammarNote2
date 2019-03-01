@@ -14,8 +14,9 @@
 .ngx-pagination
 {
     font-size: 12px !important;
-    margin-top: 21px !important;
-	font-weight: 1000;
+    margin-top: 23px !important;
+    font-weight: 1000;
+    word-spacing: -15px;
     li
     {
         font-weight:bold
@@ -28,12 +29,17 @@
         &.current
         {
             padding: 0 5px !important;
-            color:#B5B5B5; 
+            color:#818181; 
             background-color:transparent;
             
         }
 
     }
+}
+
+.ngx-pagination .disabled{
+
+    color:#818181 !important;
 }
 
 .ngx-pagination .pagination-next a::after, .ngx-pagination .pagination-next.disabled::after {
@@ -62,3 +68,21 @@
 .ngx-pagination .disabled {
     padding: 0px 0px !important;
 }
+
+.tooltip
+{
+line-height: 0.75 !important;
+}
+
+.tooltip-inner{
+    font-size: 9px !important;
+    background-color: #ffffcc !important;
+    border-radius: .25rem !important;
+    color: #000000 !important;
+    border:1px solid black;
+}
+
+.tooltip .arrow::before {
+    content: none !important;
+	
+	}

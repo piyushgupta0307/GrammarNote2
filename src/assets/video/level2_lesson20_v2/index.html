@@ -44,8 +44,9 @@
 			})();
 		};
 		function exitClk() {
-		    var ifr = window.parent.document.getElementById('iframe');
-		   ifr.src = './assets/images/image78.png';
+		    <!-- var ifr = window.parent.document.getElementById('iframe'); -->
+		   <!-- ifr.src = './assets/images/image78.png'; -->
+		window.top.location.href = '../../../exit.html';
 		  if(document.fullscreen){
 		            
 					document.exitFullscreen();

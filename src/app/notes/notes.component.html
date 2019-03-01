@@ -18,11 +18,9 @@
               <div id="thumbnailContainer">
                 <ng-container *ngFor="let d of data | paginate: {id: 'paginate', itemsPerPage:20,
               currentPage: p}  ;let i= index">
-                  <div class="col1" (click)="changeFrame(i,p)">
-                    <span class="ngbTooltip" placement="top" ngbTooltip="{{d.ToolTip}}">
-                      <img [src]="assetsPath+d.Path" [alt]="d.Path" />
+                  <div class="col1" (click)="changeFrame(i,p,downloadPresenation,downloadhandouts)">
+                      <img [src]="assetsPath+d.Path" [alt]="d.Path" class="ngbTooltip" placement="top" ngbTooltip="{{d.ToolTip}}" />
                       <p [innerText]="d.title" class="imageTitle"></p>
-                    </span>
 
                   </div>
                 </ng-container>
@@ -50,8 +48,8 @@
             <div class="col">
               <div id="videoWrapper" #videoWrapper style="position:relative">
 
-                <iframe scrolling="no" seamless="seamless" id="iframe" width="100%" height="230" frameborder="0" allowfullscreen="0"
-                  controls="controls" [src]="framePath"></iframe>
+                <iframe scrolling="no" seamless="seamless" id="iframe" width="100%" height="230" frameborder="0"
+                  allowfullscreen="0" controls="controls" [src]="framePath"></iframe>
               </div>
 
 
@@ -74,18 +72,21 @@
                       <div class="form-check">
 
                         <label class="form-check-label">
-                          <input type="radio" class="form-check-input" ngModel value="presentations_for_windows" name="downloadPresenation">Powerpoint(Windows)
+                          <input type="radio" class="form-check-input" [(ngModel)]="downloadPresenation" value="presentations_for_windows"
+                            name="downloadPresenation">Powerpoint(Windows)
                         </label>
                       </div>
                       <div class="form-check">
                         <label class="form-check-label">
-                          <input type="radio" class="form-check-input" ngModel value="presentations_for_mac" name="downloadPresenation">Powerpoint
+                          <input type="radio" class="form-check-input" [(ngModel)]="downloadPresenation" value="presentations_for_mac"
+                            name="downloadPresenation">Powerpoint
                           (Mac)
                         </label>
                       </div>
                       <div class="form-check">
                         <label class="form-check-label">
-                          <input type="radio" ngModel value="keynotes" class="form-check-input" name="downloadPresenation">Keynote
+                          <input type="radio" [(ngModel)]="downloadPresenation" value="keynotes" class="form-check-input"
+                            name="downloadPresenation">Keynote
                         </label>
                       </div>
 
@@ -109,20 +110,23 @@
                     <form (ngSubmit)="downloadHandouts()" #handoutsFrom="ngForm">
                       <div *ngIf="!isHandouts" class="form-check">
                         <label class="form-check-label">
-                          <input type="radio" class="form-check-input" ngModel value="_oyo" name="handouts">On your own
+                          <input type="radio" class="form-check-input" [(ngModel)]="downloadhandouts" value="_oyo" name="downloadhandouts">On
+                          your own
                           activities
                         </label>
                       </div>
                       <div *ngIf="!isHandouts" class="form-check">
                         <label class="form-check-label">
-                          <input type="radio" class="form-check-input" ngModel value="_prac" name="handouts">Practice
+                          <input type="radio" class="form-check-input" [(ngModel)]="downloadhandouts" value="_prac"
+                            name="downloadhandouts">Practice
                           activities
                         </label>
                       </div>
 
                       <div *ngIf="isHandouts" class="form-check">
                         <label class="form-check-label">
-                          <input type="radio" class="form-check-input" ngModel value="_prac" name="handouts">Practice
+                          <input type="radio" class="form-check-input" [(ngModel)]="downloadhandouts" value="_prac"
+                            name="downloadhandouts">Practice
                         </label>
 
                       </div>
@@ -131,7 +135,7 @@
                       </div>
                       <div *ngIf="!isHandouts" class="form-check">
                         <label class="form-check-label">
-                          <input type="radio" class="form-check-input" ngModel value="_rev" name="handouts">Reviews
+                          <input type="radio" class="form-check-input" [(ngModel)]="downloadhandouts" value="_rev" name="downloadhandouts">Reviews
                         </label>
                       </div>
 
