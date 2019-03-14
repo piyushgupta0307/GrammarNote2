@@ -16,19 +16,19 @@
     font-size: 12px !important;
     margin-top: 23px !important;
     font-weight: 1000;
-    word-spacing: -15px;
+    word-spacing: 0px;
     li
     {
         font-weight:bold
         &.disabled
         {
             color:#000;
-            padding: 0 5px !important;
+            padding: 0 3px !important;
             
         }
         &.current
         {
-            padding: 0 5px !important;
+            padding: 0 3px !important;
             color:#818181; 
             background-color:transparent;
             
@@ -45,14 +45,14 @@
 .ngx-pagination .pagination-next a::after, .ngx-pagination .pagination-next.disabled::after {
     content: '' !important;
     display: inline-block;
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
 }
 
 
 .ngx-pagination .pagination-previous a::before, .ngx-pagination .pagination-previous.disabled::before {
     content: '' !important;
     display: inline-block;
-    margin-right: 0.5rem;
+    margin-right: 0.3rem;
 }
 
 .ngx-pagination a:hover, .ngx-pagination button:hover {
@@ -63,15 +63,16 @@
     outline: none !important;
 }
 .ngx-pagination a {
-    padding: 0 3px !important;
+    padding: 0px 3px !important;
 }
 .ngx-pagination .disabled {
-    padding: 0px 0px !important;
+    padding: 0px 3px !important;
 }
 
 .tooltip
 {
 line-height: 0.75 !important;
+word-spacing: 0px !important;
 }
 
 .tooltip-inner{
@@ -80,6 +81,9 @@ line-height: 0.75 !important;
     border-radius: .25rem !important;
     color: #000000 !important;
     border:1px solid black;
+	max-width: 244px;
+    padding: 4px 4px;
+    text-align: center;
 }
 
 .tooltip .arrow::before {
