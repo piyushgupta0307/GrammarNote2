@@ -82,37 +82,6 @@ export class NotesComponent implements OnInit {
     this.keynotes = frame["keynotes"];
 
     this.framePath = this.domSanitizer.bypassSecurityTrustResourceUrl(video);
-    document.getElementById("iframe").onload = this.align;
-    this.createResier();
-
-  }
-  createResier() {
-    const a = this.renderer.createElement("a");
-    this.renderer.listen(a, "click", () => {
-      this.showWrapper = true;
-    });
-    this.renderer.setAttribute(a, "id", "resizer");
-    this.renderer.appendChild(this.videoWrapper.nativeElement, a);
-
-
-  }
-  align() {
-    const doc = (<HTMLIFrameElement>document.getElementById("iframe")).contentWindow.document;
-    const container = doc.getElementById("animation_container");
-    const canvas = doc.getElementById("canvas");
-    const dom_overlay_container = doc.getElementById("dom_overlay_container");
-    if (container && container.style) {
-      container.style.width = "350px";
-      container.style.height = "215px";
-
-      canvas.style.width = "350px";
-      canvas.style.height = "212px";
-    }
-
-    if (dom_overlay_container && dom_overlay_container.style) {
-      dom_overlay_container.style.width = "350px";
-      dom_overlay_container.style.height = "212px";
-    }
 
   }
   downloadPresentaion() {
